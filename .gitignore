@@ -1,0 +1,89 @@
+# ==========================================
+# 📦 Node.js / Frontend (React + Vite)
+# ==========================================
+# Dependencies
+**/node_modules/
+**/jspm_packages/
+**/web_drivers/
+
+# Production builds
+**/dist/
+**/build/
+**/out/
+
+# Vite / bundler logs
+vite.config.ts.timestamp-*
+vite.config.js.timestamp-*
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# TypeScript incremental compilation cache
+*.tsbuildinfo
+
+
+# ==========================================
+# ☕ Java / Backend (Spring Boot + Maven)
+# ==========================================
+# Compiled class file
+**/target/
+**/*.class
+
+# Log files
+**/logs/
+*.log
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven wrapper folder (optional, keep if you want other developers to run Maven without installing it)
+# !.mvn/wrapper/maven-wrapper.jar
+# !**/mvnw
+# !**/mvnw.cmd
+
+
+# ==========================================
+# 🛠️ IDEs, Editors & System Files
+# ==========================================
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.metadata/
+bin/
+tmp/
+.tmp/
+.classpath
+.project
+.settings/
+*.launch
+
+# Visual Studio Code
+.vscode/
+!.vscode/extensions.json
+.history/
+
+# Operating System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
